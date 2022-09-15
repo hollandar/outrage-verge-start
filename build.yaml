@@ -1,0 +1,8 @@
+sitePaths:
+  - 
+    path: site
+    publish: publish
+themesPath: themes
+fallbackPaths:
+  - $(themesPath)/$(themeName)
+  - lib

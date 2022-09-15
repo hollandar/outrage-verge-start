@@ -1,0 +1,8 @@
+{
+    "menuItems": [
+        {
+            "label":"Home",
+            "link":"/"
+        }
+    ]
+}
