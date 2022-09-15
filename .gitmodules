@@ -1,0 +1,9 @@
+[submodule "verge"]
+	path = verge
+	url = https://github.com/hollandar/outrage-verge
+[submodule "lib"]
+	path = lib
+	url = https://github.com/hollandar/outrage-verge-lib
+[submodule "themes/patternfly"]
+	path = themes/patternfly
+	url = https://github.com/hollandar/outrage-verge-theme-patternfly
