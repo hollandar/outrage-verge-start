@@ -2,7 +2,6 @@ sitePaths:
   - 
     path: site
     publish: publish
-themesPath: themes
+themesFallback: themes/$(themeName)
 fallbackPaths:
-  - $(themesPath)/$(themeName)
   - lib
