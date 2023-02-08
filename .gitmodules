@@ -7,3 +7,6 @@
 [submodule "themes/patternfly"]
 	path = themes/patternfly
 	url = https://github.com/hollandar/outrage-verge-theme-patternfly
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/hollandar/outrage-verge-theme-tailwind
