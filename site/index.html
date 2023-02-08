@@ -1,9 +1,9 @@
 <Document title="Home" />
 <DefineSection name="body">
-    <PageSection class="pf-m-fill pf-m-light pf-c-content">
+    <PageSection class="bg-white p-4">
         <TwoUp>
             <Left>
-                <div style="padding: 8rem; text-align: center;">
+                <div class="prose md:prose-lg align-center">
                     <h1>Verge Start</h1>
                     <h2>Welcome to Verge.</h2>
                     <p>
@@ -19,22 +19,6 @@
                         Integrating front end libraries, like Patternfly via NPM is very easy.
                         See the Patternfly theme for an example, start with theme.yaml, the theme configuration.
                     </p>
-                    <div class="pf-c-action-list">
-                        <div class="pf-c-action-list__item">
-                            <a class="pf-c-button pf-m-primary"
-                                href="http://github.com/hollandar/outrage-verge-start">Verge
-                                Start</a>
-                        </div>
-                        <div class="pf-c-action-list__item">
-                            <a class="pf-c-button pf-m-primary"
-                                href="http://github.com/hollandar/outrage-verge">Verge</a>
-                        </div>
-                        <div class="pf-c-action-list__item">
-                            <a class="pf-c-button pf-m-secondary" href="https://www.patternfly.org/v4/">Patternfly
-                                V4</a>
-                        </div>
-                        <div class="pf-c-action-list__item"></div>
-                    </div>
                 </div>
             </Left>
             <Right>
@@ -42,21 +26,24 @@
             </Right>
         </TwoUp>
 
-        <div class="patternfly-content">
-            <h2>
-                Verge Start Structure
-            </h2>
-            <p>You will find a couple of Git submodules in this repository:</p>
-            <ol>
-                <li><strong>lib</strong> - A set of base pages that every Verge site needs.</li>
-                <li><strong>themes/patternfly</strong> - A set of specific pages for the Patternfly theme.</li>
-                <li><strong>site</strong> - Your content.</li>
-            </ol>
-            <p>When Verge looks for content, it searches site first, then theme, then lib. Copy anything you want to
-                change
-                into your site folder in the same location. You can change everything.</p>
-            <p>If you have proposals for changes to the underlying library, or changes to the Patternfly theme, you can
-                always propose a pull request.</p>
+        <div class="m-2 md:m-8">
+            <div class="prose md:prose-lg">
+                <h2>
+                    Verge Start Structure
+                </h2>
+                <p>You will find a couple of Git submodules in this repository:</p>
+                <ol>
+                    <li><strong>lib</strong> - A set of base pages that every Verge site needs.</li>
+                    <li><strong>themes/patternfly</strong> - A set of specific pages for the Patternfly theme.</li>
+                    <li><strong>site</strong> - Your content.</li>
+                </ol>
+                <p>When Verge looks for content, it searches site first, then theme, then lib. Copy anything you want to
+                    change
+                    into your site folder in the same location. You can change everything.</p>
+                <p>If you have proposals for changes to the underlying library, or changes to the Patternfly theme, you
+                    can
+                    always propose a pull request.</p>
+            </div>
         </div>
     </PageSection>
 </DefineSection>

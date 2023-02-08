@@ -3,6 +3,10 @@
         {
             "label":"Home",
             "link":"/"
+        },
+        {
+            "label":"Google",
+            "link":"https://google.com"
         }
     ]
 }

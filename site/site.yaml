@@ -1,5 +1,5 @@
 uriName: https://verge-start.outrage.net.au
-theme: patternfly
+theme: tailwind
 copy:
   -
     from: static/
